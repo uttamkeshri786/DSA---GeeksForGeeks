@@ -1,7 +1,7 @@
 Quiz - Time & Space Complexity
 ==============================
 
-#### 1. What is the time complexity of fun()?
+### 1. What is the time complexity of fun()?
 
 ```
       int fun(int n)
@@ -27,12 +27,13 @@ Quiz - Time & Space Complexity
 
 Ans: B
 #### Explanation
+================
 The time complexity can be calculated by counting number of times the expression "count = count + 1;" is executed. The expression is executed 0 + 1 + 2 + 3 + 4 + .... + (n-1) times.
 
 Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<sup>2</sup>)
 
 
-2. Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE? ### (GATE CS 2012)
+### 2. Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE? ### (GATE CS 2012)
 
         A. A(n) = Ω(W(n))
         B. A(n) = Θ(W(n))
@@ -40,11 +41,12 @@ Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<
         D. A(n) = o(W(n))
 
 Ans: C
-### Explanation
+#### Explanation
+================
 The worst case time complexity is always greater than or same as the average case time complexity.
 
 
-3. Which of the following is not O(n^2)?
+### 3. Which of the following is not O(n^2)?
 
         A. (15^10) * n + 12099
         B. n^1.98
@@ -52,11 +54,12 @@ The worst case time complexity is always greater than or same as the average cas
         D. (2^20) * n
 
 Ans: C
-### Explanation
+#### Explanation
+================
 The order of growth of option c is n<sup>2.5</sup> which is higher than n<sup>2</sup>.
 
 
-4. Which of the given options provides the increasing order of asymptotic complexity of functions f1, f2, f3 and f4?
+### 4. Which of the given options provides the increasing order of asymptotic complexity of functions f1, f2, f3 and f4?
     f1(n) = 2^n
 
     f2(n) = n^(3/2)
@@ -71,7 +74,8 @@ The order of growth of option c is n<sup>2.5</sup> which is higher than n<sup>2<
         D. f2, f3, f4, f1
 
 Ans: A
-### Explanation
+#### Explanation
+================
 <pre>
 f1(n) = 2^n
 f2(n) = n^(3/2)
@@ -94,7 +98,7 @@ n = 64, f1 = 2^64, f4 = 64^6 = 2^36
 Also see <a href="http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29">http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29</a>
 
 
-5. Consider the following program fragment for reversing the digits in a given integer to obtain a new integer. Let n = D1D2…Dm
+### 5. Consider the following program fragment for reversing the digits in a given integer to obtain a new integer. Let n = D1D2…Dm
 
 ``` 
         int n, rev; 
@@ -120,11 +124,12 @@ Also see <a href="http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29">htt
         D. n = D1D2….Dm and rev = DmDm-1…D2D1
 
 Ans: A
-### Explanation
+#### Explanation
+================
 We can get it by taking an example like n = 54321. After 2 iterations, rev would be 12 and n would be 543.
 
 
-6. Consider the following function
+### 6. Consider the following function
 
 ```
       int unknown(int n) {
@@ -149,7 +154,8 @@ We can get it by taking an example like n = 54321. After 2 iterations, rev would
         D. Θ(n^3Logn)
 
 Ans: B
-### Explanation
+#### Explanation
+================
 In the below explanation, '^' is used to represent exponent:
 The outer loop runs n/2 or Theta(n) times.
 The inner loop runs (Logn) times (Note that j is multiplied by 2 in every iteration).
@@ -158,7 +164,7 @@ The statement increases value of k by n/2.
 So the value of k becomes n/2*Theta(nLogn) which is Theta((n^2) * Logn).
 
 
-7. The recurrence equation
+### 7. The recurrence equation
 
       T(1) = 1
 
@@ -172,7 +178,8 @@ So the value of k becomes n/2*Theta(nLogn) which is Theta((n^2) * Logn).
         D. 2^n + n
 
 Ans: A
-### Explanation
+#### Explanation
+================
 If draw recursion tree, we can notice that total work done is,
 T(n) = n + 2(n-1) + 4(n-2) + 8(n-3) + 2<sup>n-1</sup> * (n - n + 1)
 T(n) = n + 2(n-1) + 4(n-2) + 8(n-3) + 2<sup>n-1</sup> * 1
@@ -201,7 +208,7 @@ Now when you will put n = 2 in all options,
 only 1st option 2^(n+1) - n - 2 satisfies it. </pre>
 
 
-8. Consider the following three claims
+### 8. Consider the following three claims
 
     I (n + k)^m = θ(n^m), where k and m are constants
     II 2^(n + 1) = 0(2^n)
@@ -215,7 +222,8 @@ only 1st option 2^(n+1) - n - 2 satisfies it. </pre>
         D. I, II and III
 
 Ans: A
-### Explanation
+#### Explanation
+================
 <pre>
 (I) (n+m)^k = n^k + c1*n^(k-1) + ... k^m = 
 θ
@@ -224,7 +232,7 @@ Ans: A
 </pre>
 
 
-9. Consider the following C code segment
+### 9. Consider the following C code segment
 
 ```
         int f (int x)
@@ -248,7 +256,8 @@ Ans: A
         D. Cubic
 
 Ans: B
-### Explanation
+#### Explanation
+================
 f(n) = f(n-1) + g(n) ---- 1
 g(n) = f(n-1) + g(n/2) ---- 2
 
@@ -264,7 +273,7 @@ So, f(n) > Theta(2^n)
 So, option B is true, exponential growth for f(x).
 
 
-10. What is the time complexity of following function fun()? Assume that log(x) returns log value in base 2.
+### 10. What is the time complexity of following function fun()? Assume that log(x) returns log value in base 2.
  
         void fun()
         {
@@ -280,7 +289,8 @@ So, option B is true, exponential growth for f(x).
         D. Θ(n^2(Logn))
 
 Ans: B
-### Explanation
+#### Explanation
+================
 The time complexity of above function can be written as: Θ(log 1) + Θ(log 2) + Θ(log 3) + . . . . + Θ(log n) which is Θ (log n!)
 Order of growth of ‘log n!’ and ‘n log n’ is same for large values of n, i.e., Θ (log n!) = Θ(n log n). So time complexity of fun() is Θ(n log n).
 
