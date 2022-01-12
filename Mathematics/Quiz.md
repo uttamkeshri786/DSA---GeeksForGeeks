@@ -1,4 +1,4 @@
-Quiz - Time & Space Complexity
+Quiz - Mathematics
 ==============================
 
 ### 1. There are three numbers a, b, c in G.P. such that a + b + c = 14. If a and b are increased by 1 and c is decreased by 1 then the series formed by these numbers is in A.P. Calculate the value for a*b*c ?
