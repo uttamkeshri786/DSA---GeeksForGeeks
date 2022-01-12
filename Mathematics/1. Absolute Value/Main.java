@@ -27,5 +27,20 @@ class Solution {
     public int absolute(int I) {
        int absolute=Math.abs(I);
        return absolute;
+       
+       /*
+       //used a simple logic 
+
+       if(I<0){
+           I=-I;
+       }
+       else if(I==0){
+          I=0;
+       }
+       else{
+           I=I;
+       }
+       return I;
+       */
     }
 }
