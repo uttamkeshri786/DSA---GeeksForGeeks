@@ -1,7 +1,7 @@
 Quiz - Time & Space Complexity
 ==============================
 
-1. What is the time complexity of fun()?
+# 1. What is the time complexity of fun()?
 
 ```
       int fun(int n)
