@@ -24,3 +24,5 @@ public class CountDigits {
 
 	}
 }
+//Time Complexity : O(d) 
+// where 'd' is the digits of number
