@@ -32,7 +32,7 @@ The time complexity can be calculated by counting number of times the expression
 Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<sup>2</sup>)
 
 
-### 2. Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE? ### (GATE CS 2012)
+### 2. Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE? (GATE CS 2012)
 
         A. A(n) = Ω(W(n))
         B. A(n) = Θ(W(n))
@@ -112,7 +112,7 @@ Also see <a href="http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29">htt
         }
 ``` 
 
-        The loop invariant condition at the end of the ith iteration is: ### (GATE CS 2004)
+        The loop invariant condition at the end of the ith iteration is: (GATE CS 2004)
 
         A. n = D1D2….Dm-i and rev = DmDm-1…Dm-i+1
         B. n = Dm-i+1…Dm-1Dm and rev = Dm-1….D2D1
@@ -141,7 +141,7 @@ We can get it by taking an example like n = 54321. After 2 iterations, rev would
 
        }
 ```
-        What is the return value of the function? ### (GATE CS 2013)
+        What is the return value of the function? (GATE CS 2013)
  
         A. Θ(n^2)
         B. Θ(n^2Logn)
@@ -207,7 +207,7 @@ only 1st option 2^(n+1) - n - 2 satisfies it. </pre>
     II 2^(n + 1) = 0(2^n)
     III 2^(2n + 1) = 0(2^n)
     
-    Which of these claims are correct? ### (GATE CS 2003)
+    Which of these claims are correct? (GATE CS 2003)
 
         A. I and II
         B. I and III
