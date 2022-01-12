@@ -26,7 +26,7 @@ Quiz - Time & Space Complexity
         D. Theta (nLognLogn)
 
 Ans: B
-### Explanation
+##### Explanation
 The time complexity can be calculated by counting number of times the expression "count = count + 1;" is executed. The expression is executed 0 + 1 + 2 + 3 + 4 + .... + (n-1) times.
 
 Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<sup>2</sup>)
