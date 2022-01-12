@@ -10,8 +10,8 @@ public class CountDigits {
     
 		while(x > 0)
 		{
-				x = x / 10;
-				res++;
+			x = x / 10;
+			res++;
 		}	
 		return res;
 	}
