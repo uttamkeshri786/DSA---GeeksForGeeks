@@ -27,7 +27,6 @@ Quiz - Time & Space Complexity
 
 Ans: B
 #### Explanation
-================
 The time complexity can be calculated by counting number of times the expression "count = count + 1;" is executed. The expression is executed 0 + 1 + 2 + 3 + 4 + .... + (n-1) times.
 
 Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<sup>2</sup>)
@@ -42,7 +41,6 @@ Time complexity = Theta(0 + 1 + 2 + 3 + .. + n-1) = Theta (n*(n-1)/2) = Theta(n<
 
 Ans: C
 #### Explanation
-================
 The worst case time complexity is always greater than or same as the average case time complexity.
 
 
@@ -55,7 +53,6 @@ The worst case time complexity is always greater than or same as the average cas
 
 Ans: C
 #### Explanation
-================
 The order of growth of option c is n<sup>2.5</sup> which is higher than n<sup>2</sup>.
 
 
@@ -75,7 +72,6 @@ The order of growth of option c is n<sup>2.5</sup> which is higher than n<sup>2<
 
 Ans: A
 #### Explanation
-================
 <pre>
 f1(n) = 2^n
 f2(n) = n^(3/2)
@@ -125,7 +121,6 @@ Also see <a href="http://www.wolframalpha.com/input/?i=2^n+vs+n^%28log+n%29">htt
 
 Ans: A
 #### Explanation
-================
 We can get it by taking an example like n = 54321. After 2 iterations, rev would be 12 and n would be 543.
 
 
@@ -155,7 +150,6 @@ We can get it by taking an example like n = 54321. After 2 iterations, rev would
 
 Ans: B
 #### Explanation
-================
 In the below explanation, '^' is used to represent exponent:
 The outer loop runs n/2 or Theta(n) times.
 The inner loop runs (Logn) times (Note that j is multiplied by 2 in every iteration).
@@ -179,7 +173,6 @@ So the value of k becomes n/2*Theta(nLogn) which is Theta((n^2) * Logn).
 
 Ans: A
 #### Explanation
-================
 If draw recursion tree, we can notice that total work done is,
 T(n) = n + 2(n-1) + 4(n-2) + 8(n-3) + 2<sup>n-1</sup> * (n - n + 1)
 T(n) = n + 2(n-1) + 4(n-2) + 8(n-3) + 2<sup>n-1</sup> * 1
@@ -223,7 +216,6 @@ only 1st option 2^(n+1) - n - 2 satisfies it. </pre>
 
 Ans: A
 #### Explanation
-================
 <pre>
 (I) (n+m)^k = n^k + c1*n^(k-1) + ... k^m = 
 θ
@@ -257,7 +249,6 @@ Ans: A
 
 Ans: B
 #### Explanation
-================
 f(n) = f(n-1) + g(n) ---- 1
 g(n) = f(n-1) + g(n/2) ---- 2
 
@@ -290,7 +281,6 @@ So, option B is true, exponential growth for f(x).
 
 Ans: B
 #### Explanation
-================
 The time complexity of above function can be written as: Θ(log 1) + Θ(log 2) + Θ(log 3) + . . . . + Θ(log n) which is Θ (log n!)
 Order of growth of ‘log n!’ and ‘n log n’ is same for large values of n, i.e., Θ (log n!) = Θ(n log n). So time complexity of fun() is Θ(n log n).
 
