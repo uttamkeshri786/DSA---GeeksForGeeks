@@ -30,22 +30,22 @@ public class Main {
 
 // Overflow for n=20, as factorial value will be of around 19 digits
 
-	static int countTrailingZeros(int n)
-	{
-		int fact = 1;
+static int countTrailingZeros(int n)
+{
+	int fact = 1;
 
-		for(int i=2; i<=n; i++)
-		{
-		    fact = fact*i;
-		}
-			
-		int res = 0;
-		
-		while(fact%10 == 0)
-		{
-		    res++;
-		    fact = fact/10;
-		}
-	
-		return res;
+	for(int i=2; i<=n; i++)
+	{
+	    fact = fact*i;
 	}
+
+	int res = 0;
+
+	while(fact%10 == 0)
+	{
+	    res++;
+	    fact = fact/10;
+	}
+
+	return res;
+}
