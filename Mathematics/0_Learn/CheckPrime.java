@@ -4,9 +4,8 @@
 import java.io.*;
 import java.util.*;
 
-class GFG {
+public class Main {
 
-	
 	static boolean isPrime(int n)
 	{
 		if(n==1)
@@ -42,8 +41,7 @@ class GFG {
 import java.io.*;
 import java.util.*;
 
-class GFG {
-
+public class Main {
 	
 	static boolean isPrime(int n)
 	{
