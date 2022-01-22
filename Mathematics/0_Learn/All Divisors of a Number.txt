@@ -1,3 +1,4 @@
+//All Divisors of a Number in java
 //Efficient Code with Sorted Order : Time Complexity : O(sqrt(n)), Auxiliary Space : O(1)
 
 import java.io.*;
