@@ -1,3 +1,4 @@
+//Check if the given number is Prime or Not.
 //More Efficient Code(for large numbers)
 //Almost 3x faster than Efficient Solution
 
