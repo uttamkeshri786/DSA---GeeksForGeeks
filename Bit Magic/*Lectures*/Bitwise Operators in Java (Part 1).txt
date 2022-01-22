@@ -1,0 +1,35 @@
+//Bitwise XOR
+import java.io.*;
+
+public class Main {
+	public static void main (String[] args) {
+	    
+	    int x = 3, y = 6;
+	    
+		System.out.println(x ^ y);
+	}
+}
+
+//Bitwise OR
+import java.io.*;
+
+public class Main {
+	public static void main (String[] args) {
+	    
+	    int x = 3, y = 6;
+	    
+		System.out.println(x | y);
+	}
+}
+
+//Bitwise AND
+import java.io.*;
+
+public class Main {
+	public static void main (String[] args) {
+	    
+	    int x = 3, y = 6;
+	    
+		System.out.println(x & y);
+	}
+}
