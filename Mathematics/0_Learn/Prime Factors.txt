@@ -1,3 +1,4 @@
+//Prime Factors in java
 //More Efficient Solution : Time Complexity : O(sqrt(n))
 
 import java.io.*;
