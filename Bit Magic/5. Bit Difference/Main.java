@@ -14,7 +14,7 @@ public class Main {
     }
 
     // Function that return count of flipped number
-    public static int FlippedCount(int a, int b)
+    public static int countBitsFlip(int a, int b)
     {
         // Return count of set bits in a XOR b
         return countSetBits(a ^ b);
@@ -24,6 +24,6 @@ public class Main {
     {
         int a = 10;
         int b = 20;
-        System.out.print(FlippedCount(a, b));
+        System.out.print(countBitsFlip(a, b));
     }
 }
