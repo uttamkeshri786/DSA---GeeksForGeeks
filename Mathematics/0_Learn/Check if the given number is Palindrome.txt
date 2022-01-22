@@ -1,3 +1,4 @@
+//Check if the given number is Palindrome or Not.
 import java.io.*;
 import java.util.*;
 
