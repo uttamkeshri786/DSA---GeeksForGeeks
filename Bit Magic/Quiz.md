@@ -95,10 +95,13 @@ Ans: C
 The problem can be solved in  Takes θ(n) time and space.
 
 The idea is based on below observations.
+========================================
   1. Since there are total n elements, maximum sum is n for both arrays.
   2. Difference between two sums varies from -n to n. So there are total 2n + 1 possible values of difference.
   3. If differences between prefix sums of two arrays become same at two points, then subarrays between these two points have same sum.
+
 Below is Complete Algorithm.
+============================
   1. Create an auxiliary array of size 2n+1 to store starting points of all possible values of differences (Note that possible values of differences vary from -n to n, i.e., there are total 2n+1 possible values)
   2. Initialize starting points of all differences as -1.
   3. Initialize maxLen as 0 and prefix sums of both arrays as 0, preSum1 = 0, preSum2 = 0
