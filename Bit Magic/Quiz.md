@@ -30,41 +30,26 @@ Note that 9 is the only element with odd occurrences, all other elements have ev
 If the input array has all elements with even occurrences except one, then the function returns the only element with odd occurrences. Note that XORing an element with itself results 0 and XOR of 0 with a number x is equal to x.
 
 Try following complete program.
-# include <iostream>
+``` 
+    # include <iostream>
+    using namespace std;
+    
+    int fun(int arr[], int n)
+    {
+        int x = arr[0];
+        for (int i = 1; i < n; i++)
+            x = x ^ arr[i];
+        return x;
+    }
 
-using namespace std;
-
-
-
-int fun(int arr[], int n)
-
-{
-
-    int x = arr[0];
-
-    for (int i = 1; i < n; i++)
-
-        x = x ^ arr[i];
-
-    return x;
-
-}
-
-
-
-int main()
-
-{
-
-  int arr[] = {9, 12, 2, 11, 10, 9, 12, 10, 9, 11, 2};
-
-  int n = sizeof(arr)/sizeof(arr[0]);
-
-  cout << fun(arr, n) << endl;
-
-  return 0;
-
-}
+    int main()
+    {
+      int arr[] = {9, 12, 2, 11, 10, 9, 12, 10, 9, 11, 2};
+      int n = sizeof(arr)/sizeof(arr[0]);
+      cout << fun(arr, n) << endl;
+      return 0;
+    }
+``` 
 
 
 ### 2. What does the following C expression do?
@@ -155,4 +140,3 @@ http://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/
 Ans: C
 #### Explanation
 Please see https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/
- 
