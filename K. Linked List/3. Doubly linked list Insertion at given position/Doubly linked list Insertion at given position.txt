@@ -11,6 +11,7 @@ Output: 2 4 5 6
 Explanation: p = 2, and x = 6. So, 6 is
 inserted after p, i.e, at position 3
 (0-based indexing).
+
 Example 2:
 
 Input:
@@ -20,6 +21,7 @@ Output: 1 44 2 3 4
 Explanation: p = 0, and x = 44 . So, 44
 is inserted after p, i.e, at position 1
 (0-based indexing).
+
 Your Task:
 The task is to complete the function addNode() which head reference, position and data to be inserted as the arguments, with no return type.
 
