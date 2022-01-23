@@ -1,3 +1,6 @@
+//In general if we are inserting at position pos, then - 
+// Time complexity: Θ(pos)
+
 import java.util.*;
 import java.io.*;
 import java.lang.*;
