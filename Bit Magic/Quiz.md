@@ -103,12 +103,12 @@ Below is Complete Algorithm.
   2. Initialize starting points of all differences as -1.
   3. Initialize maxLen as 0 and prefix sums of both arrays as 0, preSum1 = 0, preSum2 = 0
   4. Traverse both arrays from i = 0 to n-1.
-a. Update prefix sums: preSum1 += arr1[i], preSum2 += arr2[i]
-b. Compute difference of current prefix sums: curr_diff = preSum1 – preSum2
-c. Find index in diff array: diffIndex = n + curr_diff // curr_diff can be negative and can go till -n
-d. If curr_diff is 0, then i+1 is maxLen so far
-e. Else If curr_diff is seen first time, i.e., starting point of current diff is -1, then update starting point as i
-f. Else (curr_diff is NOT seen first time), then consider i as ending point and find length of current same sum span. If this length is more, then update maxLen
+i. Update prefix sums: preSum1 += arr1[i], preSum2 += arr2[i]
+ii. Compute difference of current prefix sums: curr_diff = preSum1 – preSum2
+iii. Find index in diff array: diffIndex = n + curr_diff // curr_diff can be negative and can go till -n
+iv. If curr_diff is 0, then i+1 is maxLen so far
+v. Else If curr_diff is seen first time, i.e., starting point of current diff is -1, then update starting point as i
+vi. Else (curr_diff is NOT seen first time), then consider i as ending point and find length of current same sum span. If this length is more, then update maxLen
   5. Return maxLen
 See, Longest Span with same Sum in two Binary arrays for complete running code
 http://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/
