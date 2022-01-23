@@ -1,4 +1,4 @@
-// Efficient Code
+// Efficient Code: Time Complexity: O(n), Auxiliary Space: O(1)
 
 import java.util.*;
 import java.io.*;
@@ -49,7 +49,7 @@ class Test {
 
 
 
-// Naive Code
+// Naive Code: Two Traversal, Auxiliary space: O(n)
 
 import java.util.*;
 import java.io.*;
