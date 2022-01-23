@@ -1,4 +1,4 @@
-Quiz - Time & Space Complexity
+Quiz - Bit Magic
 ==============================
 
 ### 1. What is the return value of following function for arr[] = {9, 12, 2, 11, 2, 2, 10, 9, 12, 10, 9, 11, 2} and n is size of this array.
@@ -71,7 +71,7 @@ See, Multiply a given Integer with 3.5 for more details.
 
 ### 3. What does the following C expression do?
 
-       x = x & (x-1) 
+x = x & (x-1) 
 
         A. Sets all bits as 1
         B. Makes x equals to 0
@@ -83,8 +83,7 @@ Ans: C
 The expression simply turns off the rightmost set bit. For example, if x = 14 (1110), x - 1 = 13 (1101) it returns resultant as (1100) i.e, 12 .
 
 
-### 4. Given two arrays of numbers a1, a2, a3,...an and b1, b2, .. bn where each number is 0 or 1, the fastest algorithm to find 
-       the largest span(i, j) such that ai + ai+1, ....aj = bi + bi+1, .. bj. or report that there is not such span,
+### 4. Given two arrays of numbers a1, a2, a3,...an and b1, b2, .. bn where each number is 0 or 1, the fastest algorithm to find the largest span(i, j) such that ai + ai+1, ....aj = bi + bi+1, .. bj. or report that there is not such span,
 
         A. Takes O(n<sup>3</sup>) and Ω(2<sup>n</sup>) time if hashing is permitted
         B. Takes O(n<sup>3</sup>) and Ω(n<sup>2.5</sup>) time in the key comparison model
