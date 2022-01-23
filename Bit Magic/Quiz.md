@@ -92,7 +92,6 @@ The expression simply turns off the rightmost set bit. For example, if x = 14 (1
 
 Ans: C
 #### Explanation
-Explanation
 The problem can be solved in  Takes θ(n) time and space.
 
 The idea is based on below observations.
