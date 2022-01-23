@@ -1,0 +1,118 @@
+import java.util.*;
+
+class Node
+{
+    int data;
+    Node next;
+    
+    Node(int key)
+    {
+        data = key;
+        next = null;
+    }
+}
+
+
+class Main
+{
+    public static void printList(Node node)
+    {
+        while(node != null)
+        {
+            System.out.print(node.data + " ");
+            node = node.next;
+        }
+    }
+    
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int t = sc.nextInt();
+        while(t-- > 0)
+        {   
+            int N = sc.nextInt();
+            
+            Node []a = new Node[N];
+            
+            for(int i = 0; i < N; i++)
+            {
+                int n = sc.nextInt();
+                
+                Node head = new Node(sc.nextInt());
+                Node tail = head;
+                
+                for(int j=0; j<n-1; j++)
+                {
+                    tail.next = new Node(sc.nextInt());
+                    tail = tail.next;
+                }
+                
+                a[i] = head;
+            }
+            
+            Solution g = new Solution();
+             
+            Node res = g.mergeKList(a,N);
+            if(res!=null)
+                printList(res);
+            System.out.println();
+        }
+    }
+}
+
+class Solution
+{
+    //Function to merge two sorted list into one sorted list.
+    Node merge(Node a,Node b)
+    {
+        //base cases when either of two lists is null.
+        if(a==null)
+            return b;
+        if(b==null)
+            return a;
+        
+        //comparing data in both lists and storing the smaller in result and
+        //recursively calling the merge function for next node in result.
+        if(a.data<b.data)
+        {
+            a.next=merge(a.next,b);
+            //returning the resultant list.
+            return a;
+        }
+        else
+        {
+            b.next=merge(a,b.next);
+            //returning the resultant list.
+            return b;
+        }
+    }
+    
+    //Function to merge K sorted linked list.
+    Node mergeKList(Node[]arr,int K)
+    {
+        int N = K;
+     
+        int last=N-1; 
+	    
+        while(last!=0)
+        {
+            int i=0;int j=last;
+            
+            while(i<j)
+            {
+                //calling merge function to merge two different list into
+			    //one list which has sorted elements.
+                arr[i]=merge(arr[i],arr[j]);
+			    
+			    //going for the next pair of lists.
+                i++;j--;
+            
+                //if all pairs are merged, we update the last.
+                if(i>=j)
+                    last=j;
+            }
+        }
+        //returning the merged list.
+        return arr[0];
+    }
+}
