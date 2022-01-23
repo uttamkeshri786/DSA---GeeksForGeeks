@@ -40,6 +40,13 @@ The expression n&(n-1) will not work when n is 0. To handle this case also, our 
     }
 
 //METHOD-4
+/* All power of two numbers has only a one-bit set. 
+   So, count the no. of set bits and if you get 1 then the number is a power of 2. 
+   Please see Count set bits in an integer for counting set bits.
+   https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+*/
+
+////METHOD-5
 // Time Complexity: O(log2n), Auxiliary Space: O(1)
 import java.util.*;
 import java.io.*;
@@ -75,7 +82,7 @@ public class Main {
     }
 }
 
-//METHOD-5
+//METHOD-6
 // Time Complexity: O(log2n), Auxiliary Space: O(log2n)
 import java.util.*;
 public class Main{
