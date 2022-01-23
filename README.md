@@ -228,6 +228,7 @@
   - Delete Head of Circular Linked List 
   - Delete Kth of a Circular Linked List 
   - Circular Doubly Linked List 
+  - Insert Node at the end of Circular Doubly Linked List
   - Sorted Insert in a Singly Linked List 
   - Middle of linked list 
   - Nth Node from end of linked list 
