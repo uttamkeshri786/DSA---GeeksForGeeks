@@ -1,5 +1,5 @@
 # DSA :- GeeksForGeeks
-![alt text](https://freshershunt.in/wp-content/uploads/2022/01/GeeksforGeeks-1200x900.jpeg)
+![alt text](https://www.iitdh.ac.in/iic/E-Summit%20Website/img/supporters/geeks.png)
 ## 1. Introduction
   - Analysis of Algorithms(Background) 
   - Asymptotic Analysis 
