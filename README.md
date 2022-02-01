@@ -1,5 +1,5 @@
 # DSA :- GeeksForGeeks
-![alt text](https://image4.owler.com/logo/geeks-for-geeks_owler_20180809_174139_original.png)
+![alt text](https://image4.owler.com/logo/geeks-for-geeks_owler_20180809_174139_original.png width="20")
 ## 1. Introduction
   - Analysis of Algorithms(Background) 
   - Asymptotic Analysis 
