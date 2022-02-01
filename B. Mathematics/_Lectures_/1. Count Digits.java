@@ -1,7 +1,6 @@
-//Count the Digits of the given number in java
+//Time Complexity : O(d), where 'd' is the digits of number
 import java.io.*;
 import java.util.*;
-//import static java.lang.System.out;
 
 public class CountDigits {
 
@@ -25,5 +24,3 @@ public class CountDigits {
 
 	}
 }
-//Time Complexity : O(d) 
-// where 'd' is the digits of number
