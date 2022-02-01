@@ -1,5 +1,5 @@
 # DSA :- GeeksForGeeks
-<img src="https://github.com/uttamkeshri786/DSA_GeeksForGeeks/" data-canonical-src="https://freshershunt.in/wp-content/uploads/2022/01/GeeksforGeeks-1200x900.jpeg" height="150" />
+<img src="https://github.com/uttamkeshri786/DSA_GeeksForGeeks/blob/0837ebe82bac04597d7402ebf5388ab7099b2a1b/GFG.jpeg" width="200" height="150"/>
 
 ## 1. Introduction
   - Analysis of Algorithms(Background) 
