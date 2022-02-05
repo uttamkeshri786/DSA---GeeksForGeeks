@@ -11,7 +11,7 @@ Output: 582344006
 Explanation: 
 9223372036854775807 + 9223372036854775807 
 = 18446744073709551614.
-18446744073709551614 mod (109+7)
+18446744073709551614 mod (10<sup>9</sup>+7)
 = 582344006
 ```
 
@@ -22,7 +22,7 @@ a = 1000000007
 b = 1000000007
 Output: 0
 Explanation: 1000000007 + 1000000007 =
-(2000000014) mod (109+7) = 0
+(2000000014) mod (10<sup>9</sup>+7) = 0
 ```
 ### Your Task:
 You don't need to read input or print anything. Your task is to complete the function <strong>sumUnderModulo()</strong> that takes <strong>a and b as input parameters</strong> and <strong>returns sum</strong> of a and b under modulo <strong>10<sup>9</sup>+7</strong>.
