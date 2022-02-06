@@ -1,26 +1,26 @@
 //Time Complexity : O(d), where 'd' is the digits of number
 import java.io.*;
 import java.util.*;
-
+ 
 public class CountDigits {
-
-	static int countDigits(int x)
+ 
+	static int countDigits(int num)
 	{
-		int res = 0;
+		int count = 0;
     
-		while(x > 0)
+		while(num > 0)
 		{
-			x = x / 10;
-			res++;
+			num = num / 10;
+			count++;
 		}	
-		return res;
+		return count;
 	}
-
+ 
 	public static void main (String[] args) {
 		
 		int number = 789;
-
+ 
 		System.out.println(countDigits(number));
-
+ 
 	}
 }
